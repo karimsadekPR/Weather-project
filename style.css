@@ -1,0 +1,105 @@
+.body{
+    background-color: #6EACDA;
+    font-family:monospace;
+    overflow: hidden;
+    
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #E2E2B6;
+}
+#header{
+    margin: auto;
+    height: 1.5rem;
+    width: fit-content;
+    background-color: aliceblue;
+    opacity: 0.4;
+    align-content: center;
+    padding: 5px;
+    border: 2 solid black;
+    border-radius: 20px;
+    
+}
+input{
+    width: 20rem;
+    height: 1rem;
+    font-size: large;
+    border-radius: 20px;
+    padding: 2px;
+    
+}
+
+.row{
+    flex-direction: row;
+    margin: 5rem;
+    height:fit-content;
+    margin: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+
+}
+.col{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #03346E;
+    padding: 8px;
+    transition: transform 0.2s ease-in-out;
+    min-height: 70px;
+    height: fit-content;
+    margin: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    box-shadow: 0px 0px 12px 4px #ffffff;
+    width: fit-content;
+}
+.col:hover {
+    transform: scale(1.02);
+}
+
+.cloud {
+    margin: auto;
+    position: relative; /* Needed for absolute positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    text-align: center;
+}
+
+#cloudImg {
+    min-width: 16rem; /* Make sure it fills the container */
+    height: auto;
+    width: 100%;
+    display: block;
+    
+}
+
+#temp {
+    position: absolute; /* This places the span on top of the image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfectly centers it */
+    font-size: 20px; /* Adjust size */
+    font-weight: bold;
+}
+
+#conditionContainer{
+    width: fit-content;
+    size: 20rem;
+}
+
+.weather-advice {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  

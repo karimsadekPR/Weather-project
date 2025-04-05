@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Sense 🌤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <h1>Weather🌤️</h1>
+    <div class="sky">
+      <header class="row" id="header">
+        <input type="text" id="inputValue" />
+      </header>
+      <br />
+      <div class="row">
+        <div class="cloud">
+          <img id="cloudImg" src="images/cloudImg.png" alt="cloudImg" />
+          <span id="temp"></span>
+        </div>
+      </div>
+      <div class="row"></div>
+      <div class="row">
+        <div class="col" style="width: 200px">
+          <p id="extraDetails"></p>
+        </div>
+        <div class="col" id="conditonContainer">
+          <img src="" id="conditionIcon" alt="" />
+          <p id="condition"></p>
+        </div>
+        <div class="col" id="humidity" style="width: 200px">
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="advice" class="weather-advice"></p>
+        </div>
+      </div>
+    </div>
+    <script src="sccipt.js"></script>
+  </body>
+</html>
